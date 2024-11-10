@@ -1,0 +1,113 @@
+.profileList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.profileCard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.profileCard:hover {
+    transform: scale(1.05);
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profileItem {
+    margin-bottom: 10px;
+}
+
+.profileLabel {
+    font-weight: bold;
+}
+
+.profileTitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.noProfileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.noProfile {
+    font-size: 18px;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.createProfileButton {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.createProfileButton:hover {
+    background-color: #117016;
+}
+
+.profileTable {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.profileTable th,
+.profileTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.profileTable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.editButton,
+.deleteButton {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.editButton:hover {
+    background-color: #45a049;
+}
+
+.deleteButton {
+    background-color: #f44336;
+    color: white;
+}
+
+.deleteButton:hover {
+    background-color: #d32f2f;
+}

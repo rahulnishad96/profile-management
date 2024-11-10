@@ -1,0 +1,22 @@
+.notFoundContainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.buttonContainer {
+    margin-top: 40px;
+}
+
+.goBackButton {
+    padding: 8px 20px 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.goBackButton:hover {
+    background-color: #0056b3;
+}

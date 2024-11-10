@@ -1,0 +1,17 @@
+.navbar {
+    padding: 0px 20px;
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+.navbarContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userGreeting {
+    font-size: 1rem;
+    color: #FFF;
+}

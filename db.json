@@ -1,0 +1,10 @@
+{
+  "profiles": [
+    {
+      "id": "afcb",
+      "name": "ram",
+      "email": "rahulnishadhandia@gmail.com",
+      "age": 25
+    }
+  ]
+}
