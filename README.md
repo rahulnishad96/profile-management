@@ -16,7 +16,7 @@ This project was created with [Create React App](https://github.com/facebook/cre
 
 ## Overview
 
-This project is a React-based application designed for managing user profiles. It includes an API server simulation using `json-server` to handle data operations. The project also employs performance optimization techniques, such as `useMemo` and `useCallback`, to enhance rendering efficiency and application speed.
+This project is a React-based application designed to manage user profiles. It includes an API server simulation using `json-server` to handle data operations. The project also employs performance optimization techniques, such as `useMemo` and `useCallback`, to enhance rendering efficiency and application speed.
 
 ## Getting Started
 
@@ -89,4 +89,4 @@ To improve the performance and efficiency of this application, we have implement
 
 ---
 
-This setup and optimizations provide a smooth, efficient experience for users and an organized codebase, allowing for easy maintenance and scalability. Enjoy developing and expanding your project!
+This setup and optimizations provide a smooth, efficient experience for users and an organized codebase, allowing for easy maintenance and scalability.
